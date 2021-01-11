@@ -6,7 +6,7 @@
 #                       SCRIPT OPTIONS                                 |
 # ---------------------------------------------------------------------|
 OPENCV_VERSION='4.2.0'       # Version to be installed
-OPENCV_CONTRIB='NO'          # Install OpenCV's extra modules (YES/NO)
+OPENCV_CONTRIB='YES'         # Install OpenCV's extra modules (YES/NO)
 # -------------------------------------------------------------------- |
 
 # |          THIS SCRIPT IS TESTED CORRECTLY ON          |
@@ -58,7 +58,8 @@ sudo apt-get install -y python-dev  python-tk  pylint  python-numpy  \
                         python3-dev python3-tk pylint3 python3-numpy flake8
 
 # Java:
-sudo apt-get install -y ant default-jdk
+# never used for my purpose.
+# sudo apt-get install -y ant default-jdk
 
 # Documentation and other:
 sudo apt-get install -y doxygen unzip wget
