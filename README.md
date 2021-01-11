@@ -1,3 +1,9 @@
+# Mod from the original
+
+This script for specific purpose.
+* commented out Java related packages.
+* YES for contrib
+
 # installOpenCV
 Comprehensive installer for OpenCV on Raspbian (raspberry Pi).  Does NOT install virtualized.
 
