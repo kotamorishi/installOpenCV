@@ -3,6 +3,7 @@
 This script for specific purpose.
 * commented out Java related packages.
 * YES for contrib
+* bump version 4.5.0
 
 # installOpenCV
 Comprehensive installer for OpenCV on Raspbian (raspberry Pi).  Does NOT install virtualized.
