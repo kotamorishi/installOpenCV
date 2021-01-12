@@ -5,24 +5,16 @@
 # -------------------------------------------------------------------- |
 #                       SCRIPT OPTIONS                                 |
 # ---------------------------------------------------------------------|
-OPENCV_VERSION='4.2.0'       # Version to be installed
-OPENCV_CONTRIB='YES'         # Install OpenCV's extra modules (YES/NO)
+OPENCV_VERSION='4.5.1'       # Version to be installed
+OPENCV_CONTRIB='NO'          # Install OpenCV's extra modules (YES/NO)
 # -------------------------------------------------------------------- |
 
-# |          THIS SCRIPT IS TESTED CORRECTLY ON          |
-# |------------------------------------------------------|
-# | OS               | OpenCV       | Test | Last test   |
-# |------------------|--------------|------|-------------|
-# | Debian 10.2      | OpenCV 4.2.0 | OK   | 26 Dec 2019 |
-# |----------------------------------------------------- |
-# | Debian 10.1      | OpenCV 4.1.1 | OK   | 28 Sep 2019 |
-# |----------------------------------------------------- |
-# | Ubuntu 18.04 LTS | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
-# | Debian 9.9       | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
-# |----------------------------------------------------- |
-# | Ubuntu 18.04 LTS | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
-# | Debian 9.5       | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
-
+# |              THIS SCRIPT IS TESTED CORRECTLY ON              |
+# |--------------------------------------------------------------|
+# | OS                       | OpenCV       | Test | Last test   |
+# |--------------------------|--------------|------|-------------|
+# | Raspberry Pi OS - Dec 14 | OpenCV 4.5.1 | OK   | 26 Dec 2019 |
+# |------------------------------------------------------------- |
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
@@ -96,7 +88,6 @@ make -j8
 sudo make install
 sudo ldconfig
 
-
 # ---------------------- |
 # Also install imutils   |
 # ---------------------- |
@@ -105,10 +96,12 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
 rm get-pip.py
 sudo pip install imutils
+#pip3
 sudo pip3 install imutils
 
 # ------------------------------------ |
 # Also clone face_recognition sample   |
 # ------------------------------------ |
 sudo apt-get install -y libatlas-base-dev
-git clone https://github.com/carolinedunn/facial_recognition
+git clone https://github.com/kotamorishi/facial_recognition
+
