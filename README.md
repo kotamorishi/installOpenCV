@@ -2,9 +2,10 @@
 
 Original : https://github.com/DanalEstes/installOpenCV
 
-This script for face recog test on Pi 4.
+This script for face recognition test on Pi 4.
 * Commented out Java related packages.
-* Bump to 4.5.1
+* Bump to OpenCV v4.5.1
+* Clone simple face recoginition script using openCV.
 
 # installOpenCV
 Comprehensive installer for OpenCV on Raspbian (raspberry Pi).  Does NOT install virtualized.
