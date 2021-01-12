@@ -105,3 +105,10 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
 rm get-pip.py
 sudo pip install imutils
+sudo pip3 install imutils
+
+# ------------------------------------ |
+# Also clone face_recognition sample   |
+# ------------------------------------ |
+sudo apt-get install -y libatlas-base-dev
+git clone https://github.com/carolinedunn/facial_recognition
