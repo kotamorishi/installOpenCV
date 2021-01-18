@@ -9,12 +9,12 @@ OPENCV_VERSION='4.5.1'       # Version to be installed
 OPENCV_CONTRIB='NO'          # Install OpenCV's extra modules (YES/NO)
 # -------------------------------------------------------------------- |
 
-# |              THIS SCRIPT IS TESTED CORRECTLY ON              |
-# |--------------------------------------------------------------|
-# | OS                       | OpenCV       | Test | Last test   |
-# |--------------------------|--------------|------|-------------|
-# | Raspberry Pi OS - Dec 14 | OpenCV 4.5.1 | OK   | 26 Dec 2019 |
-# |------------------------------------------------------------- |
+# |                THIS SCRIPT IS TESTED CORRECTLY ON                |
+# |------------------------------------------------------------------|
+# | OS                           | OpenCV       | Test | Last test   |
+# |------------------------------|--------------|------|-------------|
+# | Raspberry Pi OS - 11Jan2021  | OpenCV 4.5.1 | OK   | 17 Jan 2021 |
+# |----------------------------------------------------------------- |
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
